@@ -13,29 +13,62 @@
 
     <title>Alena Pumprová - Hlavní stránka</title>
     <meta charset="utf-8">
+    <link rel="canonical" href="https://www.alena-pumprova.cz/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ahoj, jmenuji se Alena Pumprová mám a sdílím svou cestu k marketingu, fotografování a programování webových stránek pomocí HTML a CSS. Přidejte se ke mně!">
     <meta name="author" content="Alena Pumprová">
+    <meta name="robots" content="index, follow">
     <meta name="keywords" content="Alena Pumprová">
+
+    <meta property="og:locale" content="cs_CZ">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Alena Pumprová - Hlavní stránka">
+    <meta property="og:url" content="https://alena-pumprova.cz/">
+    <meta property="og:description" content="Ahoj, jmenuji se Alena Pumprová a sdílím svou cestu k marketingu, fotografování a programování webových stránek. Přidejte se ke mně!">
+    <meta property="og:image" content="https://alena-pumprova.cz/grB.webp">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="icon" href="/favicon-16x16.png" type="image/png" sizes="16x16">
     <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
     <link rel="icon" href="/android-chrome-192x192.png" type="image/png" sizes="192x192">
     <link rel="icon" href="/android-chrome-512x512.png" type="image/png" sizes="512x512">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href= "/styly.css?v=124">
-    <link rel="stylesheet" href= "/queries.css?v=130">
+    <link rel="stylesheet" href= "/styly.css?v=195">
+    <link rel="stylesheet" href= "/queries.css?v=196">
     <link rel="stylesheet" href= "/grid.css">
     <script
           src="https://code.jquery.com/jquery-3.7.1.min.js"
           integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-          crossorigin="anonymous"></script>
-    <script src="/script.js"></script>
+          crossorigin="anonymous" defer></script>
+    <script src="/script.js?v=130" defer></script>
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Alena Pumprová",
+    "description": "Jsem Alena Pumprová, milovnice programování, marketingu a fotografování. Prozkoumejte mé projekty, příběhy a fotogalerie.",
+    "url": "https://alena-pumprova.cz/",
+    "sameAs": [
+        "https://www.linkedin.com/in/alena-pumprov%C3%A1-274234107/",
+        "https://www.instagram.com/alena.pumprova/",
+        "https://www.facebook.com/bazantnice.lazne.belohrad"
+    ],
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://alena-pumprova.cz/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+    }
+}
+</script>
+<meta name="msvalidate.01" content="95134301066379095FFE8F6C0B44931B">
 </head>
 
 <body>
 <header>
-    <span class="menu-background">
+    <div class="menu-background">
         <nav>
             <ul>
                 <li><a class="first active" href="/index/">Hlavní stránka</a></li>
@@ -47,94 +80,98 @@
 
             <div class="clearfix"></div>
             <div class="mobile-nav-back"></div>
-            <a class="mobile-nav-icon" aria-label="menu" href="#"></img class="burger-menu jq--nav-icon" src="burger-barw.png" alt="Hamburger menu"></a>
+            <a class="mobile-nav-icon" aria-label="menu" href="#"><img class="burger-menu jq--nav-icon" src="/burger-barw.png" alt="Hamburger menu"></a>
 
         </nav>
 <a id="logo" aria-label="Hlavní stránka" href="/index/">
-    <img src="/logo.webp" alt="Logo" loading="lazy">
+    <img src="/logo.webp" alt="Logo">
 </a>
 <a id="logo2" aria-label="Hlavní stránka" href="/index/">
-    <img src="/logom.webp" alt="Logo pro mobil" loading="lazy">
+    <img src="/logom.webp" alt="Logo pro mobil">
 </a>
     
-</span>  
+</div>  
 </header>
 
 <main>
 <div class= "container">
-    <picture>
-    <source 
-        srcset="/cats2.webp" 
-        media="(max-width: 768px)">
+    <img class="banner mobile-img"
+        src="/cats2.webp" 
+        alt="Překvapené kočky, úvodní obrázek Alena Pumprová" 
+        width="960" 
+        height="500">
 
-    <source 
-        srcset="/cats.webp" 
-        media="(min-width: 769px)">
-
-    <img class="banner"
+    <img class="banner desktop-img"
         src="/cats.webp" 
         alt="Překvapené kočky, úvodní obrázek Alena Pumprová" 
         width="960" 
         height="328">
-</picture>
-
-
 
 <br>
 
 
 
-<h1>Kdo jsem</h1>
+<h1>O mně</h1>
 
 <br>
-<h2>Proč vznikly tyto stránky</h2>
+<h2 class="vip">PF 2025</h2>
+<p>
+<a href="https://alena-pumprova.cz/pf-2025/">PF 2025</a></p> 
+<br>
+
+<h2 class="vip">Proč vznikly tyto stránky</h2>
 
 <p>
 Zdravím, asi přemýšlíte, kdo jsem jaký je účel těchto stránek.</p> 
 <br>
 <p>
-Jsem možná lehce ztřeštěná holka, která ráda čelí novým výzvám, překonavá překážky a musí neustále něco podnikat. Z toho důvodu jsem také vytvořila tyto stránky a totálně si zamilovala překážkové závody. Ale o tom už se více na těchto stránkách. </p>
+Jsem možná lehce ztřeštěná holka, která ráda čelí novým výzvám, překonavá překážky a&nbsp;musí neustále něco podnikat. Možná proto jsem také vytvořila tyto stránky a&nbsp;totálně si zamilovala překážkové závody. Ale o&nbsp;tom už se více na&nbsp;těchto stránkách. </p>
 <br>
 <p>
-Odpověď na druhou otázku vás možná překvapí. Jediným důvodem, proč jsem tyto stránky vytvořila, bylo to, že jsem se rozhodla se konečně naučit programovat a možná taky sdílet pár věcí o sobě. A kde jinde načít než tím, že si vytvořím nějaký web. Tak tady ho máte.
+Odpověď na&nbsp;druhou otázku vás možná překvapí. Jediným důvodem pro&nbsp;vytvoření těchto webových stránek bylo mé rozhodnutí se <a href="https://alena-pumprova.cz/projects/webdesign/">konečně naučit programovat</a> a&nbsp;možná taky sdílet <a href="https://alena-pumprova.cz/about/">pár věcí o&nbsp;sobě</a>. A&nbsp;kde jinde načít než tím, že si&nbsp;vytvořím nějaký web. Tak tady ho máte.
 <br>
 <p>
-Velký díky patří také <strong>Davidu Šetkovi</strong>, jehož skvělé <a href="https://www.youtube.com/@hacknisvoubudoucnost" target="_blank">kurzy</a> mě na této cestě provázejí, aniž by o tom tušil. A je asi fér zde zmínit i mého virtuálního průvodce, <strong>Chat GPT</strong>, který mi pomohl při spoustě problémů a spoustu věsí výrazně urychlil.</p>
+Velký díky patří také <strong>Davidu Šetkovi</strong>, jehož skvělé <a href="https://www.youtube.com/@hacknisvoubudoucnost" target="_blank">kurzy</a> mě na&nbsp;této cestě provázejí, aniž by o&nbsp;tom tušil. A&nbsp;je asi fér zde zmínit i&nbsp;mého virtuálního průvodce, <strong>Chat GPT</strong>, který mi&nbsp;pomohl při spoustě problémů a&nbsp;spoustu věcí výrazně urychlil.</p>
 <br>
 <p>
-Doufám, že se při procházení těchto stránek budete bavit alespoň trochu, jako jsem se já bavila při jejich vytváření. Byly spousty dlouhých večerů a spousta kódu v poznámkovém bloku.</p>
+Doufám, že se při procházení těchto stránek budete bavit alespoň trochu, jako se já bavila při&nbsp;jejich vytváření. Byly spousty dlouhých večerů a&nbsp;spousta kódu v&nbsp;poznámkovém bloku.</p>
 <br>
 <p>
-Já konečně přestanu prokrastinovat vybíráním obrázků z fotobanky a laděním barev a můžu pokračovat v Java Scriptu. </p>
+Já konečně přestanu prokrastinovat vybíráním obrázků z&nbsp;fotobanky a&nbsp;laděním barev a&nbsp;můžu pokračovat v&nbsp;Java Scriptu. </p>
 
-<p>
     <br>
 
 <figure>
     <a aria-label="lightbox" href="#lightbox-desktop">
-        <img src="gr.webp" class="desktop-img" alt="Na závodech Gladiator Race v Nové Pace" width="804px" height="533px" loading="lazy">
+        <img src="/gr.webp" class="desktop-img" alt="Na závodech Gladiator Race v Nové Pace" width="804" height="533">
     </a>
     <div id="lightbox-desktop">
         <a href="#start" class="close">&times;</a>
-        <img src="grA.webp" alt="Na závodech Gladiator Race v Nové Pace" width="1900px" height="1266px" loading="lazy">
+        <img src="/grA.webp" alt="Na závodech Gladiator Race v Nové Pace" width="1900" height="1266" loading="lazy">
     </div>
 
     <a aria-label="lightbox" href="#lightbox-mobile">
-        <img src="/gr2.webp" class="mobile-img" alt="Na závodech Gladiator Race v Nové Pace" width="590px" height="590px" loading="lazy">
+        <img src="/gr2.webp" class="mobile-img" alt="Na závodech Gladiator Race v Nové Pace" width="590" height="590">
     </a>
     <div id="lightbox-mobile">
         <a href="#start" class="close">&times;</a>
-        <img src="/grB.webp" alt="Na závodech Gladiator Race v Nové Pace" width="1265px" height="1265px" loading="lazy">
+        <img src="/grB.webp" alt="Na závodech Gladiator Race v Nové Pace" width="1265" height="1265" loading="lazy">
     </div>
     
     <figcaption>Překážky mě baví</figcaption>
 </figure>
-
-</p>
+<br>
+<h2>Cesta k dalšímu zlepšení</h2>
+<p>Tyto stránky jsou pro&nbsp;mě nejen „<a href="https://alena-pumprova.cz/projekty/">deníkem</a>“ mého pokroku, ale také místem, kde se mé nápady stávají skutečností. Každý nápad, který na&nbsp;těchto stránkách realizuji, je pro&nbsp;mě dalším potvrzením, že tvoření má smysl. Ať už jde o&nbsp;nové způsoby programování, vývoj webu, nebo třeba o&nbsp;to, jak lépe propojit obsah s&nbsp;vizuálním designem, každý krok je pro&nbsp;mě dalším malým dobrodružstvím.</p>
+<br>
+<p>Ráda experimentuji nejen s&nbsp;HTML a&nbsp;CSS, ale poslední dobou také s&nbsp;Javascriptem, který dodává mým stránkám život. Každý malý krok mě posouvá blíž k&nbsp;pochopení tvorbě a&nbsp;prozkoumání marketingových nástrojů, jako je SEO nebo třeba webová analýza. Tvorba stránek mi umožňuje objevovat nové způsoby, jak zaujmout návštěvníky a&nbsp;zároveň jim i&nbsp;něco předat.</p>
+<br>
+<p>Ať už pracuji na&nbsp;grafickém designu, testuji rychlost webu, nebo hledám nové způsoby, jak zdokonalit uživatelskou zkušenost, každá výzva mě učí něco nového. Tyto stránky jsou mým prostorem, kde kombinuji kreativitu a&nbsp;mé zatím skromné IT dovednosti. Budu také moc ráda, pokud se mi podaří alespoň někoho inspirovat. 😊</p>
 
 <br>
 <br>
-<a class= "end" href="https://www.linkedin.com/in/alena-pumprov%C3%A1-274234107/" target="_blank">Díky za vaši návštěvu</a>
+<span><a class= "end" href="https://www.linkedin.com/in/alena-pumprov%C3%A1-274234107/" target="_blank">Díky za vaši návštěvu</a></span>
+
 <br>
 </div>
 
@@ -160,7 +197,21 @@ Já konečně přestanu prokrastinovat vybíráním obrázků z fotobanky a lad�
     </div>
 
 </footer>
+<script type="text/javascript" src="https://c.seznam.cz/js/rc.js"></script>
+<script>
+  window.sznIVA.IS.updateIdentities({
+    eid: null /* email či zahashovaný email*/
+  });
 
+  var conversionConf = {
+    id: 100224578, /* identifikátor konverze Sklik*/
+    value: 1, /* hodnota objednávky v Kč*/
+     
+    consent: null /* souhlas od návštěvníka na odeslání konverzního hitu, povolené hodnoty: 0 (není souhlas) nebo 1 (je souhlas) */
+  };
+  window.rc.conversionHit(conversionConf);
+</script>
 </body>
 
 </html>
+

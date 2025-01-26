@@ -1,0 +1,24 @@
+    @media only screen and (min-width: 750px, max-width: 770px) {
+        .burger-menu {
+            display: inline-block !important;
+            top: -3px;
+            right: 83%;
+            width: 15% !important;
+            max-width: 40%;
+        }
+    #logo2 img {
+        top: 0px;
+        right: 2.5%;
+        width: 30%;
+        background-color: #00000000;
+        border: none;
+        box-shadow: none;
+        z-index: 1000;
+    }
+
+.burger-menu jq--nav-icon
+        width:13%;
+
+
+        
+}
