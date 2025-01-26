@@ -1,5 +1,4 @@
-.menu-background,nav{background:#9e63bfB0;z-index:1000}.first,.first:hover{color:#e7e730!important}#logo,.first,nav{z-index:1000}.first,h1,h2{letter-spacing:1px}a:not(.first,.our-games .first,.burger-menu):visited,a:not(.first,.our-games,.burger-menu):link,h1{color:#c4c417}h2,nav ul,ul:not(nav ul){text-align:left}#logo,#logo img,.burger-menu{box-shadow:none}form label,h2{color:#8944af}.end:link,.end:visited,.first,form label,h1:not(.AP),input[type=submit]{font-weight:700}.first,.our-games,body,footer{display:flex}.container,.menu-background,footer{width:100%;max-width:1000px}*,nav ul{margin:0}.our-games .col .first,h1,h2{font-family:Montserrat,sans-serif,Arial}*,.our-games,.our-games .col {margin-left: 30px;}
-.photo-segment li{box-sizing:border-box}.contacts:before,.vip:before{content:"";margin-top:0;margin-bottom:40px}.benefit img,.fb-logo img{box-shadow:none!important}.banner,.panel,.slider-wrapper,iframe{overflow:hidden}.menu-background,nav{position:fixed;top:0;}#accept-cookies,#logo,.accordion,
+.menu-background,nav{background:#9e63bfB0;z-index:1000}.first,.first:hover{color:#e7e730!important}#logo,.first,nav{z-index:1000}.first,h1,h2{letter-spacing:1px}a:not(.first,.our-games .first,.burger-menu):visited,a:not(.first,.our-games,.burger-menu):link,h1{color:#c4c417}h2,nav ul,ul:not(nav ul){text-align:left}#logo,#logo img,.burger-menu{box-shadow:none}form label,h2{color:#8944af}.end:link,.end:visited,.first,form label,h1:not(.AP),input[type=submit]{font-weight:700}.first,.our-games,body,footer{display:flex}.container,.menu-background,footer{width:100%;max-width:1000px}*,nav ul{margin:0}.our-games .col .first,h1,h2{font-family:Montserrat,sans-serif,Arial}*,.our-games,.our-games .col {margin-left: 30px} .photo-segment li{box-sizing:border-box}.contacts:before,.vip:before{content:"";margin-top:0;margin-bottom:40px}.benefit img,.fb-logo img{box-shadow:none!important}.banner,.panel,.slider-wrapper,iframe{overflow:hidden}.menu-background,nav{position:fixed;top:0;}#accept-cookies,#logo,.accordion,
 .album,.bar,.first,.third,a:active,a:hover,input[type=submit]{cursor:pointer}*{padding:0}body{flex-direction:column;background:linear-gradient(180deg,#dfc7ec30,#dfc7ec30) center/cover no-repeat,url('91312.webp') center/cover no-repeat;position:relative;scrollbar-color:#c4c417}body::-webkit-scrollbar{width:12px}body::-webkit-scrollbar-thumb{background-color:#8944af;border-radius:7px}body::-webkit-scrollbar-track{background-color:(rgba(255,255,255,.63))}.menu-background{left:50%;transform:translateX(-50%);padding:0}.container,.first{position:relative}.container{margin:100px auto 0;background-color:#dfc7ecA0;padding:40px}#r1:checked~.s1,.first{margin-left:0}.first,footer,input[type=submit]{background-color:#8944af}.error-page,h2{padding-bottom:20px;text-transform:uppercase}nav{margin-bottom:0;height:100px;width:100%}nav ul{list-style-type:none;padding:12px 0}.photo-segment li:first-child,form label{margin-left:2px}nav ul li{float:left;margin-right:0;width:20%;font-family:Montserrat,sans-serif;text-align:center}.first{border:2px solid #c4c417;justify-content:center;align-items:center;font-size:105%!important;text-decoration:none;margin-top:38.3px;height:50px;transition:background-color 1.5s,color 1.5s!important;text-transform:uppercase;top:15px}#logo2 img,.burger-menu,.mobile-img,input[name="r"]{display:none}#logo img,#logo2 img,.burger-menu{position:absolute}.first:hover{background-color:#ae58d4}#accept-cookies:hover,.first.active{background-color:#c4c417!important}.first.active{color:#6d2b92!important;border:2px solid #c7bb6d!important}#logo{height:auto}#logo img{top:7px;right:4%;width:12.5%;background-color:#00000000;height:auto;max-width:100%;border:none;z-index:1009;margin-bottom:5px}
 h1:not(.AP){
     font-size: 45px;
@@ -13,7 +12,7 @@ h2{font-size:30px;font-weight:800}.error-page{color:#8944af!important;font-size:
 ,.foot,.banner,.burger-menu,.slide img,.fb-logo){width:100%;height:auto;border-radius:5px;border:1px solid #8944af;overflow:hidden}img:not(.logo img,.map-image,.foot,.banner,.burger-menu,.slide img,.fb-logo):hover{transform:scale(1.01);filter:brightness(1.3);box-shadow:#fff 2px 2px 5px;border:1.5px solid #fff;transition:transform 1s,filter .5s,box-shadow .5s,border .5s}.social{max-width:200px}.burger-menu{top:10px;right:83%;width:13%;height:auto;max-width:30%;border:none;color:#fff;z-index:799}.address h2,.our-games h2,.our-games p,.slide,.slider,.slider-wrapper{position:relative}.error,.success{color:#fff!important}.banner{width:100%;height:30%;margin-bottom:20px;border-radius:10px}iframe{display:block;border-radius:5px;margin-right:8px;border:1px solid #9e63bf;width:100%}iframe:not(.map):hover{filter:brightness(1.2);box-shadow:#fff 1px 1px 5px;border:1.5px solid #fff;transition:filter 1s,box-shadow 1s,border 1s}.third{border-radius:5px;border:1px solid #9e63bf;width:100%}.end:link,.end:visited{color:#c7bb6d;font-size:42px;text-align:center;font-family:Lato,sans-serif;padding-top:2px;display:block;width:100%;text-transform:uppercase;letter-spacing:1.5px;word-spacing:3px}.end:active,.end:hover,.fb-link:active,.fb-link:hover{color:#e6d880;transition:color 1s}.fb-link:link,.fb-link:visited{font-size:110%;display:inline-flex;align-items:center;text-decoration:none;color:#c7bb6d;font-weight:700;font-family:Lato,sans-serif}form{border:1px solid #8944af;padding:20px;background-color:#dfc7ecB3;margin:20px auto;border-radius:5px;max-width:600px;display:grid;grid-template-columns:repeat(2,1fr);gap:20px}form label{display:block;margin-bottom:5px;margin-bottom:2px;font-family:Lato,sans-serif}form input[type=email],form input[type=text],form textarea{width:100%;padding:10px;border:2px solid #8944af;border-radius:5px;box-sizing:border-box;background:#ffffffD0;color:#83673f;outline:0}input:focus{border:2px solid #fff!important;background:#ffffffE5!important;transition:.5s!important}form textarea{grid-column:span 2;height:150px;margin-top:0!important;width:208%;margin-bottom:20px}textarea:focus{border:2px solid #fff;background:#ffffffE5;transition:.5s}input[type=submit]{grid-column:span 2;width:100%;padding:10px;color:#fff;font-size:18px;border-radius:5px;border:none;transition:background .5s}.address h2,.contacts h2,.our-games h2{font-size:26px;line-height:1.2}input[type=submit]:hover{background-color:#c4c417}.form-result{width:66%!important;padding:10px!important;margin:0 auto 20px!important;font-size:120%!important;text-align:center;font-weight:700!important;font-family:Lato,sans-serif;line-height:1.4!important;border-radius:5px!important}
 .album,.contacts h2,.copyright{font-weight:700}.success{border:1px solid #56a73b!important;background:#56a73b80!important}.error{border:1px solid #ee5050!important;background:#ee505080!important}footer{justify-content:space-between;align-items:center;padding:10px 40px;margin:0 auto}.foot{width:25%}.fb-logo{display:inline-block;margin:10px;width:40px;height:40px;flex-shrink:0}.fb-logo:hover{width:42px;height:42px}.fb-logo img{border:none!important;margin:0}.copyright{color:#fff;font-size:18px;text-align:right;flex-grow:1;font-family:Lato,sans-serif}.our-games h2{margin:0 0 0 15px;text-align:center;display:block;padding-bottom:10px;width:100%}.our-games{flex-wrap:wrap;justify-content:center;gap:20px;max-width:1200px;margin:0 auto}.address,.photo-gallery{margin:20px auto;display:flex}.our-games .col{flex:0 1 calc(50% - 20px);display:flex;flex-direction:column;align-items:center;text-align:center}.our-games .col img{width:100%;max-width:400px;height:auto;border-radius:10px;box-shadow:0 4px 8px rgba(0,0,0,.2);margin-bottom:10px}.khora{max-width:900px!important}.our-games p{margin-top:10px;line-height:1.2;text-align:justify;max-width:335px}.our-games .col .first{display:flex;align-items:center;justify-content:center;height:30px;padding:10px 20px;background-color:#8f53b0;border-color:#c4c417!important;color:#fff!important;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;text-decoration:none;border-radius:5px;transition:background-color .3s,transform .2s;text-align:center;line-height:1.2;z-index:600}.our-games .col .first:hover{background-color:#ae58d4!important;color:#fff!important;border:2px solid #c4c417!important}.address h2{margin:0;text-align:left;display:block;padding-bottom:10px;width:100%}.address{justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:10px;max-width:100%}.address .address-content{flex:1;min-width:300px;max-width:45%}.address .map-container{flex:1;min-width:300px;max-width:50%}.map-container iframe{width:100%;height:300px;border:0;border-radius:5px}.contacts h2{margin:0;vertical-align:top}.contacts:before{display:block;width:0%;border-bottom:2px solid #9e63bf90}.photo-gallery{flex-direction:column;align-items:center}
 
-.photos{display:flex;justify-content:space-between;flex-wrap:wrap;margin:0 auto;width:100%}
+.photos{display:flex;justify-content:space-between;flex-wrap:wrap;margin:0 auto;width:100%;margin-left: 30px}
 .photo-segment ul {
 margin-left: 30px
 }
@@ -24,6 +23,12 @@ margin-left: 30px
 
 .benefit h3,.vip-levels {display: flex !important;flex-wrap: wrap;gap: 30px;margin-top: 20px;}
 .benefit2{font-family:Lato,sans-serif}.benefit,.benefit2{padding:15px;width:48%;box-shadow:0 4px 8px rgba(0,0,0,.2); box-sizing:border-box;}
+
+h3 {
+    color: #7e478c;
+    margin-top: 5px;
+    font-size: 130%;
+}
 .benefit2 h3 {
     color: #fff;
     margin-top: 5px;
@@ -55,206 +60,6 @@ header {
 .email:before {
     content: "📧 ";
 }
-
-select {
-    width: 209%; /* Zajistí, že zabírá celou šířku rodičovského elementu */
-    max-width: 209%; /* Zabraňuje přetažení */
-    padding: 10px;
-    background-color: white;
-    border: 2px solid #9e63bf;
-    color: #9e63bf;
-    font-family:Lato,sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius: 5px;
-    cursor: pointer;
-    -webkit-appearance: none; /* Skryje nativní šipku */
-    -moz-appearance: none;
-    appearance: none;
-    position: relative;
-    background-image: url('AdobeStock_970361543.svg');
-    background-repeat: no-repeat;
-    background-position: right 0px center;
-    background-origin: content-box;
-    background-size: 25px; /* Přizpůsobení velikosti SVG */
-}
-
-select:focus {
-    outline: none;
-    border-color: white; /* Změna barvy při zaměření */
-}
-
-option{
-    color: #9e63bf;
-    font-family:Lato,sans-serif;
-    font-weight: 800;
-    font-size: 20px;
-    width: 100%;
-}
-
-#getresult {
-    margin-top: 10px;
-    margin-bottom: -5px;
-    color: #9e63bf;
-    font-family:Lato,sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-}
-
-#result {
-    grid-column: span 2;
-    width: 100%;
-    height: 40px;
-    padding: 10px;
-    background-color: white;
-    color: #9e63bf;
-    font-family:Lato,sans-serif;
-    border: solid 3px #9e63bf;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.5s;
-}
-.calc {
-    width: 209% !important;
-    display: block;
-    padding: 10px;
-    border: 2px solid #9e63bf;
-    border-radius: 5px;
-    box-sizing: border-box;
-    background: #ffffffD0;
-    color: #9e63bf;
-    font-family:Lato,sans-serif;
-    outline: none;
-}
-#cat {
-    width: 50px;
-    box-sizing: border-box;
-    height: 50px;
-    background-color: #9e63bf;
-    position: relative;
-    left: 0px;
-    border: solid 2px #fff;
-    border-radius: 10px;
-    bottom: 0px;
-    font-size: 40px;
-    text-align: center; 
-    display: flex; /* Přidá flexbox pro zarovnání obsahu */
-    align-items: center; /* Vertikální zarovnání obsahu */
-    justify-content: center; /* Horizontální zarovnání obsahu */
-    margin: 5px;
-    padding-bottom: 10px; 
-    text-rendering: auto;
-    z-index: 500;
-
-}
-#cat:hover {
-    background-color: #c4c417;
-    border: solid 2px #929210;
-}
-/*#cat::before {
-    content: "😼"; 
-}
-
-#cat:hover::before {
-    content: "😾"; 
-}*/
-
-
-    #game-container {
-        position: relative;
-        width: 90%; 
-        max-width: 700px; 
-        height: 50vh; 
-        max-height: 500px;
-        border: 4px solid #9e63bf;
-        border-radius: 15px;
-        margin: 20px auto;
-        overflow: hidden;
-        background-image: url("https://raw.githubusercontent.com/Alena0490/Sounds/main/game.webp");
-        background-size: cover; /* Obrázek pokryje celé pole */
-        background-position: center; /* Vycentrování obrázku */
-        background-repeat: no-repeat; /* Žádné opakování obrázku */
-    }
-
-    .item {
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        font-size: 30px;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: #fff;
-        border: 2px solid #9e63bf;
-        border-radius: 50%;
-    }
-
-#score {
-    display: flex;
-    width: 90%;
-    max-width: 700px;
-    height: 60px;
-    position: relative;
-    border: 4px solid #9e63bf;
-    border-radius: 15px;
-    background-color: #f0f0f0E5;
-    overflow: hidden;
-    color: #9e63bf;
-    padding: 10px;
-    font-weight: 700;
-    font-size: 23px;
-    font-family:Lato,sans-serif;
-    align-items: center;
-    justify-content: center;
-    margin: 10px auto;
-
-}
-
-#sound-toggle {
-    width: 50px;
-    box-sizing: border-box;
-    height: 50px;
-    background-color: #11111190;
-    position: absolute; /* Absolutní umístění vzhledem k #game-container */
-    bottom: 10px; /* Vzdálenost od dolního okraje */
-    right: 0px; /* Vzdálenost od pravého okraje */
-    border: none;
-    border-radius: 10px;
-    padding: 10px;
-    bottom: 0px;
-    font-size: 40px;
-    display: flex; /* Přidá flexbox pro zarovnání obsahu */
-    align-items: center; /* Vertikální zarovnání obsahu */
-    justify-content: center; /* Horizontální zarovnání obsahu */
-    margin: 5px;
-    padding-bottom: 10px; 
-    text-rendering: auto;
-
-}
-#game {
-    position: relative;
-        width: 90%; 
-        display: flex;
-        flex-direction: column;
-        height: 85vh; 
-        max-width: 800px; 
-        height: auto; 
-        max-height: 500px;
-        border: 1px solid #9e63bf;
-        border-radius: 15px;
-        background-color: #dfc7ecB3;
-        margin: 20px auto;
-        overflow: hidden;
-        background-size: cover; /* Obrázek pokryje celé pole */
-        background-position: center; /* Vycentrování obrázku */
-        background-repeat: no-repeat; /* Žádné opakování obrázku */
-        padding: 10px;
-        margin-bottom: 25px;
-    }
-
 
 #pf257 {
     position: absolute;
@@ -414,33 +219,6 @@ canvas {
     transform: translateY(-15px);
     }
 }
-
-@media print {
-    .copyright,
-    header, /* Skryje menu, pokud je uvnitř <header> */
-    footer, /* Skryje patičku, pokud je uvnitř <footer> */
-    .menu-background, /* Skryje konkrétní třídu menu */
-    .foot { /* Skryje konkrétní třídu patičky */
-      display: none;
-    }
-  
-    /* Nastavte tisknutelnou oblast */
-    body {
-      margin: 0;
-      padding: 0;
-      color: black; /* Přepne text na černou barvu pro tisk */
-      background: none; /* Odstraní pozadí stránky */
-    }
-
-    #cookie-banner {
-        display: none;
-    }
-  }
-
-  .box1,
-  .box2 {
-    height:auto
-  }
 
 @keyframes outline {
     0% {

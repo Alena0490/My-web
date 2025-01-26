@@ -1,0 +1,433 @@
+@media only screen and (max-width: 768px) {
+    #logo img {
+        display: none !important;
+    }
+    #logo2 img {
+        display: block !important;
+        position: absolute;
+        top: 14px;
+        right: 2.5%;
+        width: 30%;
+        background-color: #00000000;
+        height: auto;
+        max-width: 100%;
+        border: none;
+        box-shadow: none;
+        z-index: 1000;
+    }
+    .desktop-img {
+        display: none !important;
+    }
+    .mobile-img {
+        display: block !important; /* Přidán !important pro vyšší prioritu */
+        max-width: 100%;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .first.active {
+        background: #cbbf6f;
+        color: black;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .first.active {
+        background: none !important;
+        color: inherit !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+h1 {   
+    font-size: 30px;
+    letter-spacing: 0.8px;
+    text-align: center;    
+}
+h2 {   
+    font-size: 25px;
+    text-align: center !important;  
+}
+.contacts h2{   
+    font-size: 25px;
+    text-align: center !important;    
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 100px;
+   background: none !important;
+}
+nav ul li {
+    display: block;
+    list-style-type: none;
+    width: 105%;
+    margin: 0px 0;
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+   background: none !important;
+}
+.fb-logo {
+    display: inline-block;
+    margin: 0px;
+    padding-top: 0px;
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+}
+@media only screen and (max-width: 768px) {
+.first:not(.album, .our-games) {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+    font-size: 125% !important;
+    text-align: left;
+    font-weight: bold; 
+    background: none;
+    cursor: pointer;
+    border: none !important;
+    padding-left: 20px;
+    margin-top: 12px;
+    height: 25px;
+    width: 260px;
+    transition: background 0.5s ease !important;
+    text-transform: uppercase;
+    z-index: 1002;
+    display: none;
+}
+.album {
+text-align: center;
+width: 65% !important;
+justify-content: center;
+align-items: center;
+}
+.menu-background {
+    position: fixed;
+    width: 90%;
+    max-width: 1000px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;  
+    background: #000000D0;
+    z-index: 1000;
+}
+.mobile-nav-back {
+    height: 250px;
+    position: fixed;
+    top: 100px;
+    width: 72%;
+    background-color: #000000A0;
+    z-index: -1; 
+    display: none;
+}
+.burger-menu{
+    display: inline-block !important;
+    position: absolute;
+    top: 10px;
+    right: 83%;     
+    width: 15% !important;
+    height: auto;
+    max-width: 40%;
+    border: none  !important;
+    box-shadow: none;
+    z-index: 799;
+}
+@media (max-width: 768px) {
+    .map-container {
+        max-width: 100%;
+        margin: 0;
+    }
+    .map {
+        width: 100%;
+        height: 250px;
+    }
+    .address {
+        flex-direction: column;
+        flex-direction: column;
+        align-items: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+    .address .col {
+        width: 100%;
+        margin-bottom: 20px;
+    } 
+    .address iframe {
+        width: 100%;
+        max-width: none;
+        height: 300px !important;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .our-games {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .our-games .col {
+        width: calc(50% - 20px);
+        box-sizing: border-box;
+    }
+}
+@media (max-width: 768px) {
+    .our-games {
+        flex-direction: column;
+        gap: 20px;
+        width: 260px;
+    }
+    .our-games .col {
+        flex: 0 1 90%;
+    }
+    .our-games .col img {
+        max-width: 90%;
+    }
+.photo-segment li {
+    width: 50% !important;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin: 0% auto !important;
+    display: inline-block;
+}
+@media (max-width: 768px) {
+    .vip-benefits {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        justify-items: center;
+    }
+    .benefit {
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+        padding: 15px;
+        border-radius: 10px;
+        align-items: center;
+    }
+    .benefit img {
+        width: 100px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .benefit h4 {
+        font-size: 1.2em;
+        margin: 10px 0;
+    }
+    .vip-levels {
+        display: grid;
+        grid-template-columns: 2fr;
+        gap: 20px;
+        justify-items: center;
+    }
+    .vip-level {
+        width: 100%;
+        padding: 15px;
+        border-radius: 10px;
+    }
+}
+@media (min-width: 769px) {
+    .desktop-img {
+        display: block !important;
+    }
+    .mobile-img {
+        display: none !important;
+    }
+}
+@media (max-width: 768px) {
+    .desktop-img {
+        display: none !important;
+    }
+    .mobile-img {
+        display: block !important;
+    }
+}
+#lightbox-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden !important;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1000;
+}
+#lightbox-mobile:target {
+    visibility: visible !important;
+    opacity: 1;
+}
+#lightbox-mobile img {
+    max-width: 90%;
+    max-height: 90%;
+    border: 5px solid #8944af;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: white !important;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 1001;
+    cursor: pointer;
+}
+@media (max-width: 435px) {
+a:not(.fb-logo, .our-games .first, .burger-menu) {
+    color: #c4c417;
+    font-size: 95%;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+vip-level {
+     width: 100%;
+     max-width: 400px;
+     padding: 15px;
+     border-radius: 10px;
+     }
+
+    }
+
+
+@media (min-width: 760px) and (max-width: 900px) {
+    .purple {
+        width: 100% !important;
+    }
+    .vip-level {
+        padding: 15px;
+        width: 100% !important;
+    }
+.benefit {
+    width: 100% !important;
+}
+.purple {
+    width: 100% !important;
+}
+}
+
+@media (max-width: 350px) {
+form {
+    padding: 10px;
+    margin: 0px auto;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+form {
+    padding: 10px;
+    margin: 0px auto;
+    max-width: 600px;
+    display: block;
+}
+form textarea {
+    height: 150px;
+    margin-top: 5px !important;
+    width: 100%;
+}
+h2 {
+    text-align: left !important;
+}
+    .address iframe {
+     width: 80%;
+}
+ a:not(.fb-logo, .our-games .first, .burger-menu) {
+     font-size: 85%;
+}
+ul:not(nav ul) {
+    font-size: 120%;
+}
+.b404 {
+        height: 65px !important;
+        padding: 2px;
+    }
+}
+@media (prefers-color-scheme: dark) {
+p {
+     color: #f0f0f0;
+}
+.p404 {
+     color: #f0f0f0;
+}
+figcaption {
+     color: #e9e9e9 !important;
+}
+.end:link,
+.end:visited {
+    color: #e7e71c !important;
+    }
+.end:hover,
+.end:active {
+    color: f4f430;
+    transition: color 1s;
+}
+h1 {
+color: #e7e71c;
+}
+a:not(.fb-logo, .our-games .first, .burger-menu) {
+color: #e7e71c;
+}
+.jq--scroll-form {
+color: #e7e71c !important;
+}
+.panel p {
+    color: #e7e7e7 !important;
+}
+ul:not(nav ul) {
+color: #f0f0f0;
+}
+form {
+    border: 1px solid #9e63bf;
+    background-color: #dfc7ecB3;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    border: 2px solid #9e63bf;
+    color: #fff;
+}
+input[type="submit"] {
+    background-color: #9e63bf;
+    transition: background 0.5s;
+}
+form label {
+    color: #fff;
+}
+#accept-cookies {
+    background-color: #9e63bf !important;
+}
+.fb-logo img {
+    filter: invert(1) hue-rotate(180deg);
+    filter: brightness(0) invert(1);
+    mix-blend-mode: normal;
+}
+.burger-menu {
+    filter: brightness(0) invert(1);
+}
+.our-games .col .first {
+    background-color: #9e63bf;
+    border-color: #e7e71c !important;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+footer {
+    background-color: #9e63bf;
+}
+#logo1 img {
+    filter: brightness(0) invert(1);
+    }
+#logo2 img {
+    filter: brightness(0) invert(1);
+    }
+}
+
+

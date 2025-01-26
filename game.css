@@ -1,0 +1,126 @@
+#cat {
+    width: 50px;
+    box-sizing: border-box;
+    height: 50px;
+    background-color: #9e63bf;
+    position: relative;
+    left: 0px;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    bottom: 0px;
+    font-size: 40px;
+    text-align: center; 
+    display: flex; /* Přidá flexbox pro zarovnání obsahu */
+    align-items: center; /* Vertikální zarovnání obsahu */
+    justify-content: center; /* Horizontální zarovnání obsahu */
+    margin: 5px;
+    padding-bottom: 10px; 
+    text-rendering: auto;
+    z-index: 500;
+
+}
+#cat:hover {
+    background-color: #c4c417;
+    border: solid 2px #929210;
+}
+/*#cat::before {
+    content: "😼"; 
+}
+
+#cat:hover::before {
+    content: "😾"; 
+}*/
+
+
+    #game-container {
+        position: relative;
+        width: 90%; 
+        max-width: 700px; 
+        height: 50vh; 
+        max-height: 500px;
+        border: 4px solid #9e63bf;
+        border-radius: 15px;
+        margin: 20px auto;
+        overflow: hidden;
+        background-image: url("https://raw.githubusercontent.com/Alena0490/Sounds/main/game.webp");
+        background-size: cover; /* Obrázek pokryje celé pole */
+        background-position: center; /* Vycentrování obrázku */
+        background-repeat: no-repeat; /* Žádné opakování obrázku */
+    }
+
+    .item {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        font-size: 30px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border: 2px solid #9e63bf;
+        border-radius: 50%;
+    }
+
+#score {
+    display: flex;
+    width: 90%;
+    max-width: 700px;
+    height: 60px;
+    position: relative;
+    border: 4px solid #9e63bf;
+    border-radius: 15px;
+    background-color: #f0f0f0E5;
+    overflow: hidden;
+    color: #9e63bf;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 23px;
+    font-family:Lato,sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+
+}
+
+#sound-toggle {
+    width: 50px;
+    box-sizing: border-box;
+    height: 50px;
+    background-color: #11111190;
+    position: absolute; /* Absolutní umístění vzhledem k #game-container */
+    bottom: 10px; /* Vzdálenost od dolního okraje */
+    right: 0px; /* Vzdálenost od pravého okraje */
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    bottom: 0px;
+    font-size: 40px;
+    display: flex; /* Přidá flexbox pro zarovnání obsahu */
+    align-items: center; /* Vertikální zarovnání obsahu */
+    justify-content: center; /* Horizontální zarovnání obsahu */
+    margin: 5px;
+    padding-bottom: 10px; 
+    text-rendering: auto;
+
+}
+#game {
+    position: relative;
+        width: 90%; 
+        display: flex;
+        flex-direction: column;
+        height: 85vh; 
+        max-width: 800px; 
+        height: auto; 
+        max-height: 500px;
+        border: 1px solid #9e63bf;
+        border-radius: 15px;
+        background-color: #dfc7ecB3;
+        margin: 20px auto;
+        overflow: hidden;
+        background-size: cover; /* Obrázek pokryje celé pole */
+        background-position: center; /* Vycentrování obrázku */
+        background-repeat: no-repeat; /* Žádné opakování obrázku */
+        padding: 10px;
+        margin-bottom: 25px;
+    }
