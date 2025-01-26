@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EEV984BTX9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EEV984BTX9');
+</script>
+    <title>Kontakty</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon-32x32.png">
+    <link rel="stylesheet" href= "styly.css">
+    <link rel="stylesheet" href= "queries.css">
+    <link rel="stylesheet" href= "grid.css">
+    <script
+          src="https://code.jquery.com/jquery-3.7.1.min.js"
+          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+          crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+<header>
+    <span class="menu-background"> 
+        <nav>
+            <ul>
+                <li><a class="first" href="index.html">Hlavní stránka</a></li>
+                <li><a class="first" href="projekty.html">Projekty</a></li>
+                <li><a class="first" href="about.html">O mně</a></li>
+                <li><a class="first" href="galerie.html">Fotogalerie</a></li>
+                <li><a class="first active" href="kontakt.php">Kontakt</a></li>
+            </ul>
+
+            <div class="clearfix"></div>
+            <div class="mobile-nav-back"></div>
+            <a class="mobile-nav-icon"><img class="burger-menu jq--nav-icon" src="burger-barw.png" alt="Hamburger menu"></a>
+
+        </nav>
+<a id="logo" href="index.html">
+    <img src="logo.png" alt="Logo">
+</a>
+<a id="logo2" href="index.html">
+    <img src="logom.png" alt="Logo pro mobil">
+</a>
+    
+</span>  
+</header>
+
+<main>
+<div class= "container">
+    <img class="banner desktop-img" src="contacts.png" alt="7 contats neon style image">
+    <img class="banner mobile-img" src="contacts2.png" alt="7 contats neon style image">
+
+    <h1>Kontaktujte mě</h1>
+
+<ul>
+    <li><strong>E-mail: </strong><a class="contact" href="mailto:alenapumprova@seznam.cz">alenapumprova@seznam.cz</a></li>
+    <li><strong>Telefon:</strong> <a class="contact" href="tel:+420732746628">+420 732 746 628</a></li>
+    <li><strong>Můžete také využít <a href="#" class="jq--scroll-form">kontaktní formulář</a>.</strong></li>
+</ul> 
+  
+<br>
+<section class="address row">
+    <!-- Sloupec s adresou -->
+    <div class="col address-content">
+        <h2 class="contacts">Odkud jsem</h2>
+        <ul>
+            <li>Dolní Nová Ves</li>
+            <li>507 81</li>
+            <li>Lázně Bělohrad</li>
+        </ul>
+    </div>
+
+    <!-- Sloupec s mapou -->
+    <div class="col map-container">
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40659.15347825756!2d15.533559377376632!3d50.437428026715054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470e9984b83ae027%3A0x1b51bd06cfde54d!2zTMOhem7EmyBCxJtsb2hyYWQsIDUwNyA4MSBMw6F6bsSbIELEm2xvaHJhZA!5e0!3m2!1scs!2scz!4v1731094492402!5m2!1scs!2scz"
+            allowfullscreen=""
+            loading="lazy"
+            width="100%" 
+            height="300" 
+            referrerpolicy="no-referrer"
+            title="Mapa - Lázně Bělohrad">
+        </iframe>
+    </div>
+</section>
+
+<h2 class= "contacts">Navštivte můj&nbsp;blog</h2>
+<p>
+Psaní pro mě vždy bývalo jakousi formou terapie.  Byla to pro mě možnost, jak naprosto přesně vyjádřit všechny své myšlenky. Zpočátku jsem své příběhy psala jenom v rámci slohovek ve škole. Postupně jsem si však začala pohrávat s myšlenkou začít své příběhy sdílet s více lidmi. Po nějakém čase jsem se konečně odhodlala napsat svůj první blogový článek. Překvapila tehdy docela pozitivní odezva, a tak jsem vydala další a další. </p> 
+<br>
+<p>I když se mé zájmy v průběhu let měnily a na psaní už nezbývalo moc času, občas jsem se tam ráda vracela a díky textům si připomínala, jaká jsem byla před pár lety. Některé z mých článků najdete na mém blogu dodnes.</p> 
+<br>
+<p><strong>Pokud vás zajímají mé tehdejší myšlenky a příběhy, najdete je na mém blogu. Těším se na vaši návštěvu!</strong>
+</p>  
+<br>
+    <br>
+    <figure>
+        <a href="https://blog.idnes.cz/pumprova" target="_blank">
+           <img class="desktop-img" src="banner.jpg"  max-width="500" alt="Blog">
+           <img class="mobile-img" src="banner1.webp"  max-width="500" alt="Blog">
+        </a>
+    </figure>
+
+    <i style="color: gray; visibility: hidden;">Blog</i>
+</p>
+<br>
+
+<h2 id="contact-form" class="contacts jq--form">Napište mi</h2>
+
+<!-- <?php
+if (isset($_GET['success'])) {
+    if ($_GET['success'] === "1") {
+        echo '<div class="form-result success">Odeslání proběhlo úspěšně</div>';
+    } elseif ($_GET['success'] === "-1") {
+        echo '<div class="form-result error">Odeslání selhalo. Zkuste to prosím znovu.</div>';
+    }
+}
+?> -->
+
+<form action="mailer.php" method="post">
+    <div>
+        <label for="name">Jméno</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+        <label for="surname">Příjmení</label>
+        <input type="text" id="surname" name="surname" required>
+    </div>
+    <div>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+        <label for="phone">Telefon (nepovinné)</label>
+        <input type="text" id="phone" name="phone">
+    </div>
+    <div>
+        <label for="message">Vaše zpráva</label>
+        <textarea id="message" name="message"></textarea>
+    </div>
+    <input type="submit" value="Odeslat">
+</form>
+</div>
+
+
+<div id="cookie-banner">
+    Tento web používá cookies, bla bla bla... 
+    <button id="accept-cookies" style="margin-left: 10px; padding: 5px 10px; background-color: #555; color: white; border: none; cursor: pointer;">Souhlasím</button>
+</div>
+
+</main>
+
+<footer>
+<br>
+    <div class="foot">
+        <a class="fb-logo" href="https://www.linkedin.com/in/alena-pumprov%C3%A1-274234107/" target="_blank"><img src="fbwhite.png" alt="Logo"></a>
+    </div>
+    <div class="copyright">
+        Copyright © Alena Pumprová 2024
+    </div>
+</footer>
+
+</body>
+
+</html>
