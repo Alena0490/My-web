@@ -1,7 +1,8 @@
 # 🌍 Osobní web – první projekt od základů
 
 Tento web je úplně **první projekt**, který jsem vytvořila ještě v počátcích učení – psaný ručně v poznámkovém bloku. Přesto jsem se snažila o co nejprofesionálnější výsledek a vyzkoušela si na něm kompletní proces tvorby webu – od kódu přes design, SEO až po nasazení s vlastní doménou a HTTPS.
-![image](https://github.com/user-attachments/assets/d2402883-8600-4d5a-a2c0-94bca2bdd249)
+
+![Osobní web mockup](img/my-web-mockup.jpg)
 
 ---
 
