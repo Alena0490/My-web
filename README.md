@@ -2,7 +2,7 @@
 
 Tento web je úplně **první projekt**, který jsem vytvořila ještě v počátcích učení – psaný ručně v poznámkovém bloku. Přesto jsem se snažila o co nejprofesionálnější výsledek a vyzkoušela si na něm kompletní proces tvorby webu – od kódu přes design, SEO až po nasazení s vlastní doménou a HTTPS.
 
-![Osobní web mockup](img/my-web-mockup.jpg)
+![Osobní web mockup](my-web-mockup.jpg)
 
 ---
 
